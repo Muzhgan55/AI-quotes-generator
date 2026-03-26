@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Qoutes Generator</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="qoute-generator">
           <input
             type="text"
             placeholder="Enter the topic of the Qoute"
@@ -23,7 +24,7 @@
           />
           <input type="submit" class="button" />
         </form>
-        <div class="qoute">The Qoutes will display here</div>
+        <div class="qoute" id="qoute"></div>
       </main>
       <footer>
         This Project was coded by
