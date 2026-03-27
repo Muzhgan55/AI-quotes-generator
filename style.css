@@ -1,6 +1,5 @@
 body {
   background-color: beige;
-  font-family: "Courier New", Courier, monospace;
 }
 
 a {
@@ -13,6 +12,7 @@ a {
 }
 
 header {
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 30px;
 }
 
